@@ -333,3 +333,9 @@ footer{
    background-color: #f80bb2;
    color: #fff;
 }
+
+/*----------------------------Profile-----------*/
+.novedades{
+   width: 500px;
+   margin-left: 20%;
+}
