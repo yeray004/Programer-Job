@@ -1,0 +1,217 @@
+.mision{
+    display: flex;
+    background-color: #F1F1F1;;
+    font-family: sans-serif;
+    margin: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 200px;
+}
+
+.tarjetas{
+    display: flex;
+    list-style: none;    
+    text-decoration: none;  
+    align-content: center;
+}
+.tarjetastexto{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    color: #2860F9;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.tarjetastitulo {
+    width: 600px;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #2860F9;
+    font-weight: bold;
+
+
+}
+
+/*------------------------------------------VISION-------------------------------*/
+.vision{
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 1em;
+    font-family: sans-serif;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 200px;
+}
+
+/*------------------------------------------PROGRAMJOBS-------------------------------*/
+
+.botonprogram{
+    background-color:#F1F1F1;
+    height:250px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.botonprogram ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #F80BB2;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0px 0px 0px;    
+}
+.programjobs{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    padding: 20px 20px;
+}
+.destacados__boton {
+    color: white;
+    background-color: #f80bb1;
+    border-radius: 30px;
+    text-decoration: none; 
+
+    padding:10px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+}
+.botonobje{
+    display: flex;
+    align-content: center;
+
+}
+
+
+/*------------------------------------ALIADOS-------------------------------------------------*/
+.aliados{
+    display: flex;
+    justify-content: center;
+    color: #F80BB2;
+    font-weight: bold;
+    width: 456px;
+    height: 53px;
+    
+}
+
+.logos_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 5em;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 24px;
+}
+.logos_container2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+
+.acc{
+    height: 15%;
+    width: 15%;
+}
+.pacto{
+    height: 13%;
+    width: 13%;
+}
+.botnar{
+    height: 13%;
+    width: 13%;
+}
+.bolivar{
+    height: 10%;
+    width: 10%;
+}
+.saldarriaga {
+    height: 15%;
+    width: 15%;
+}
+.saldarriaga {
+    height: 15%;
+    width: 15%;
+}
+.wu{
+    height: 15%;
+    width: 15%;
+}
+
+/* OBJETIVOS */
+.destacados {
+    background-color: var(--background-azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.destacados__titulo {
+    text-align: center;
+    color: #F80BB2;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.4rem;
+    margin-bottom: 2.7rem;
+    padding: 20px;
+
+}
+
+.destacados__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.destacados__panel-imagen {
+    width: 100vw;
+    max-width: 600px;
+    margin-bottom: .5rem;
+}
+
+.destacados__panel-texto {
+    font-size: 19px;
+    font-weight: 700;
+    list-style: none;    
+    text-decoration: none; 
+    
+}
+
+
+/* ---Resposive for Phone/tablet---*/
+@media screen and (max-width:1080px) {
+
+    .tarjetas{
+        display: flex;
+        flex-flow: column wrap;
+        }
+    .contenido_texto{
+        padding: 0px 10px ;
+        
+    }
+    .contenido_mision{
+        display: flex ;
+    }
+    .mision{
+        justify-content: center;
+    }
+    .contenido_mision i{
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
