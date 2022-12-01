@@ -1,0 +1,126 @@
+:root{
+    --color-fuxia:#F80BB2;
+}
+h1, h2, h3{
+    color: var(--color-fuxia);
+}
+/* ------------------------------HEADER */
+header{
+    grid-area: 1 / 1 / 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(180px 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px 1fr));
+    background-color: #2860F9;
+    padding: 1%;
+    color: #000;
+}
+.logoNegro{
+    grid-area: 1 / 1 / 2 / 2;
+    width: 7%;
+    justify-self: center;
+}
+nav{
+    grid-area: 1 / 2 / 2 / 3;
+    align-self: center;
+    align-items: center;
+}
+.select{
+    background-color: transparent;
+    border-color: transparent;
+    width: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+nav .nave{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color:#000;
+    margin: 0%;
+    align-items: center;
+}
+.btn{
+    background-color: #F80BB2;
+    color: #fff;
+    border-color: transparent;
+    cursor: pointer;
+    padding: 3px;
+    align-self: center;
+/*     margin-top: -20px; */
+}
+/* ------------------------------FORMULARIO */
+.cont-formulario{
+    margin: 5% 20%;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------------------INICIO */
+.container-inicio-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 7%;
+    padding: 0%;
+}
+.container-inicio-1-img{
+    width: 100%;
+}
+.container-inicio-1-text{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    width: 700px;
+    justify-content: center;
+    align-content: center;
+}
+/* ----------------------------CORTE IMAGEN PJ */
+.container-img-btwn{
+    width: 100%;
+    height: auto;
+}
+/* ----------------------------CARDS */
+.container-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 0%;
+}
+.card-nosotros{
+    width: 500px;
+    margin: 0% 5%;
+}
+.card-title{
+    padding: 20px;
+    background-color: var(--color-fuxia);
+    color: white;
+    font-weight: 600;
+    font-size: 130%;
+    border-radius: 50px;
+    text-align: center;
+}
+.card-img{
+    width: 100%;
+}
+.card-text{
+    padding: 3%;
+}
+/* ---------------------------MEDIA */
+@media (max-width: 768px){
+    /* FORMULARIO */
+    .cont-formulario{
+        margin: 5% 10%;
+    }
+    /* INICIO */
+    .container-inicio-1{
+        width: 95%;
+    }
+}
