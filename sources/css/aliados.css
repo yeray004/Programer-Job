@@ -57,6 +57,7 @@ nav .nave{
     background-color: #F80BB2;
     color: #fff;
     border-color: transparent;
+    border-radius: 5px;
     cursor: pointer;
     padding: 3px;
     align-self: center;
@@ -252,7 +253,7 @@ footer{
     align-self: center;
 }
 /*POPUP REGISTRO*/
-.pop{
+#pop{
     background-color: #00000090;
     position: fixed;
     display: flex;
@@ -262,7 +263,7 @@ footer{
     height: 100vh;
     visibility: hidden;
 }
-.pop.active{
+#pop.active{
     visibility: visible;
 }
 .up{
