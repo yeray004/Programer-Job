@@ -231,7 +231,7 @@ footer{
 
 .container-container{
    display: flex;
-   height: 100%;
+   height: 50%;
 }
 .perfil{
    background-color: #e7e0e0;
@@ -248,12 +248,39 @@ footer{
 }
 .perfil ul li{
    list-style: none;
-   padding: 2%;
+   padding: 15%;
+   font-size: 20px;
+   
 }
-
+.logout{
+   background-color: #0b66f8;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+   font-size: 15px;
+   color: #fff;
+}
 .perfil img{
    width: 50%;
    border-radius: 100%;
+}
+.barra{
+   width: 200px;
+   height: 10px;
+   border-radius: 20px;
+}
+
+.description p{
+   padding: 10px;
+}
+.barra{
+   width: 200px;
+   height: 10px;
+   border-radius: 20px;
+}
+
+.description p{
+   padding: 10px;
 }
 .perfil p{
    padding:20px ;
@@ -271,10 +298,30 @@ footer{
    display: flex;
    justify-content: space-around;
    text-align: center;
+   padding-top: 50px;
+}
+
+.part{
+   border: none;
+   background-color:#B5D8F4;
+   margin-top: 20px;
+   padding: 20px;
+   border-radius: 30px;
    margin-top:0;
 }
 .retos-ali-git{
    height: 1000px;
+}
+.title-pag{
+   text-align: center;
+   color: #F80BB2;
+   font-size: 40px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.descriptión img{
+   width: 20px;
 }
 .btn-more{
    width: 100px;
@@ -286,7 +333,16 @@ footer{
    border-radius: 20px;
    cursor: pointer;
 }
+.project-title{
+   font-size: 25px;
+}
 .btn-more:hover{
    background-color: #f80bb2;
    color: #fff;
+}
+
+/*----------------------------Profile-----------*/
+.novedades{
+   width: 500px;
+   margin-left: 20%;
 }
