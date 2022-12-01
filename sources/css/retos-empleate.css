@@ -233,7 +233,7 @@ footer{
 
 .container-container{
    display: flex;
-   height: 100%;
+   height: 50%;
 }
 .perfil{
    background-color: #e7e0e0;
@@ -268,9 +268,9 @@ footer{
   
 }
 .barra{
-   width: 20px;
+   width: 200px;
    height: 10px;
-   background-color: #000;
+   border-radius: 20px;
 }
 
 .description p{
@@ -304,6 +304,13 @@ footer{
 }
 .retos-ali-git{
    height: 1000px;
+}
+.title-pag{
+   text-align: center;
+   color: #F80BB2;
+   font-size: 40px;
+   padding: 20px;
+   margin-top: 20px;
 }
 
 .descriptión img{
