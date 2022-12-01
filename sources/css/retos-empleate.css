@@ -250,13 +250,31 @@ footer{
 }
 .perfil ul li{
    list-style: none;
-   padding: 2%;
+   padding: 15%;
+   font-size: 20px;
+   
 }
-
+.logout{
+   background-color: #0b66f8;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+   font-size: 15px;
+   color: #fff;
+}
 .perfil img{
    width: 50%;
    border-radius: 100%;
   
+}
+.barra{
+   width: 20px;
+   height: 10px;
+   background-color: #000;
+}
+
+.description p{
+   padding: 10px;
 }
 .perfil p{
    padding:20px ;
@@ -274,13 +292,23 @@ footer{
    display: flex;
    justify-content: space-around;
    text-align: center;
-   margin-top: ;
+   padding-top: 50px;
+}
+
+.part{
+   border: none;
+   background-color:#B5D8F4;
+   margin-top: 20px;
+   padding: 20px;
+   border-radius: 30px;
 }
 .retos-ali-git{
    height: 1000px;
 }
 
-
+.descriptión img{
+   width: 20px;
+}
 .btn-more{
    width: 100px;
    padding: 10px;
@@ -290,6 +318,9 @@ footer{
    color:#535456;
    border-radius: 20px;
    cursor: pointer;
+}
+.project-title{
+   font-size: 25px;
 }
 .btn-more:hover{
    background-color: #f80bb2;
