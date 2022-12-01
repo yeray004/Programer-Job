@@ -11,7 +11,7 @@ header{
    grid-template-columns: repeat(2, 1fr);
    grid-template-columns: repeat(auto-fit, minmax(180px 1fr));
    grid-template-columns: repeat(auto-fill, minmax(180px 1fr));
-   background-color: #B5D8F4;
+   background-color: #2860F9;
    height: 20%;
    padding-top: 30px;
 }
@@ -20,8 +20,7 @@ header{
    width: 7%;
    justify-self: center;
 }
-nav{
-  
+nav{ 
    grid-area: 1 / 2 / 2 / 3;
    align-self: center;
 }
@@ -84,7 +83,6 @@ align-items: center;
 .btn {
    margin-top: 50px;
    cursor: pointer;
-  
 }
 .btn a{
    color: #fff;
@@ -214,21 +212,21 @@ footer{
 
 /*-----------Aliados-------------*/
 .star, .star:before{
-    position: relative;
-    width: 20px;
-    height: 25px;
-    background-color: #cefa1d;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-}
-.star::before{
-    position: absolute;
-    content: '';
-    background-color: rgb(224, 241, 38);
-    width: 70%;
-    height: 70%;
-    inset: 0;
-    margin: auto;
-    z-index: 1;
+      position: relative;
+      width: 20px;
+      height: 25px;
+      background-color: #cefa1d;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   }
+   .star::before{
+      position: absolute;
+      content: '';
+      background-color: rgb(224, 241, 38);
+      width: 70%;
+      height: 70%;
+      inset: 0;
+      margin: auto;
+      z-index: 1;
 }
 
 .container-container{
@@ -256,7 +254,6 @@ footer{
 .perfil img{
    width: 50%;
    border-radius: 100%;
-  
 }
 .perfil p{
    padding:20px ;
@@ -274,7 +271,7 @@ footer{
    display: flex;
    justify-content: space-around;
    text-align: center;
-   margin-top: ;
+   margin-top:0;
 }
 .retos-ali-git{
    height: 1000px;
