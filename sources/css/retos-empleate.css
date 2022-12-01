@@ -233,7 +233,7 @@ footer{
 
 .container-container{
    display: flex;
-   height: 600px;
+   height: 100%;
 }
 .perfil{
    background-color: #e7e0e0;
@@ -267,11 +267,19 @@ footer{
 }
 .container-reto{
    width: 1000px;
-   height: 25%;
+   height: 20%;
    margin: 1%;
    border-radius: 20px;
    background-color:#e7e0e0;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-top: ;
 }
+.retos-ali-git{
+   height: 1000px;
+}
+
 
 .btn-more{
    width: 100px;
