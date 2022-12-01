@@ -1,12 +1,15 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
 }
+:root{
+    --color-dark-green: #009458;
+}
 body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-h1, h2, h3{
-    font-family: 'Libre Baskerville', serif;
+.texto-de-ejemplo{
+    color: var(--color-dark-green);
 }
