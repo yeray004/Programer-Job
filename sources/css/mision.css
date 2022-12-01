@@ -166,7 +166,6 @@
     line-height: 2.4rem;
     margin-bottom: 2.7rem;
     padding: 20px;
-
 }
 
 .destacados__panel {
@@ -190,8 +189,6 @@
     text-decoration: none; 
     
 }
-
-
 /* ---Resposive for Phone/tablet---*/
 @media screen and (max-width:1080px) {
 
