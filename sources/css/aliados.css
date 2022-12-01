@@ -334,3 +334,43 @@ ul.btnss{
     justify-self: center;
     margin-left: 200px;
 }
+#overlay{
+    background-color: #00000090;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+    height: 100vh;
+}
+#overlay.active{
+    visibility: visible;
+}
+.cont-formulario{
+    width:50%;
+    align-items: center;
+    justify-items: center;
+    background-color: #D9D9D9;
+    padding: 2%;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+}
+.form-title{
+    font-size: 100%;
+    margin-top: 15px;
+}
+.re{
+    border-radius: 5px;
+    border-color: #F80BB2;
+    padding: 1%;
+}
+.form-btn-inicio{
+    border-radius: 5px;
+    color: white;
+    padding: 1%;
+    background-color: #5374A2;
+    border-color: #5374A2;
+    box-shadow: 0px 0px 0px 2px #00000050;
+}
