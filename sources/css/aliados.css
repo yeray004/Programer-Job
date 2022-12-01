@@ -61,6 +61,7 @@ nav .nave{
     padding: 3px;
     align-self: center;
     margin-top: -20px;
+    border-radius: 5px;
 }
 /*NOTICIAS*/
 .info{
@@ -252,7 +253,7 @@ footer{
     align-self: center;
 }
 /*POPUP REGISTRO*/
-.pop{
+#pop{
     background-color: #00000090;
     position: fixed;
     display: flex;
@@ -262,7 +263,7 @@ footer{
     height: 100vh;
     visibility: hidden;
 }
-.pop.active{
+#pop.active{
     visibility: visible;
 }
 .up{

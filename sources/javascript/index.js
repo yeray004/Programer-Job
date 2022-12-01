@@ -1,6 +1,6 @@
 const ingreso = document.getElementById('btn1')
-const boton = document.getElementsByClassName('.pop');
+const boton = document.getElementById('pop');
 
-ingreso.addEventListener(e) =>
-    boton.classList.add(".active")
-}
+ingreso.addEventListener('click', function(){
+    boton.classList.add('active')
+});
